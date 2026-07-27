@@ -1,0 +1,16 @@
+{
+  "name": "qa-playwright",
+  "version": "2.0.0",
+  "description": "Dynamic, randomized QA suite for research.duvindu.org",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:critical": "playwright test tests/critical.spec.js",
+    "test:dynamic": "playwright test tests/dynamic.spec.js",
+    "report": "playwright show-report report"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.0"
+  }
+}
