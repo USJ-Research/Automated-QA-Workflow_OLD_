@@ -1,4 +1,4 @@
-# QA Playwright Suite — research.duvindu.org
+# QA Playwright Suite - research.duvindu.org
 
 Automated QA tests for https://research.duvindu.org/
 
